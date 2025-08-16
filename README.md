@@ -1,7 +1,6 @@
 # VGMMamba
 
-Abstract：
-Low-light image enhancement is a fundamental task in computer vision. Recently, Mamba-based architectures have attracted increasing attention due to
+Abstract: Low-light image enhancement is a fundamental task in computer vision. Recently, Mamba-based architectures have attracted increasing attention due to
 their superior capability in modeling long-range dependencies and linear computational complexity. However, existing methods still suffer from insufficient
 feature extraction and loss of visual information in practical applications. To
 address the limited feature representation during enhancement, we propose a
