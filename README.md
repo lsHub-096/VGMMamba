@@ -4,8 +4,8 @@ Low-light image enhancement is a fundamental task in computer vision. Recently, 
 their superior capability in modeling long-range dependencies and linear computational complexity. However, existing methods still suffer from insufficient
 feature extraction and loss of visual information in practical applications. To
 address the limited feature representation during enhancement, we propose a
-Vision Guide Module (VGM) that introduces auxiliary visual cues throughout the enhancement process, enabling more effective restoration of image
-details. To mitigate the “long-range forgetting” issue caused by the sequential scanning mechanism of Mamba, we design a Global-Local Feature Enhancement (GLFE) module, which strengthens long-range feature modeling
+Vision Guide Module (VGM) that introduces auxiliary visual cues throughout the enhancement process, enabling more effective restoration of image
+details. To mitigate the “long-range forgetting” issue caused by the sequential scanning mechanism of Mamba, we design a Global-Local Feature Enhancement (GLFE) module, which strengthens long-range feature modeling
 through a global-local feature refinement strategy. Moreover, conventional
 models typically focus on spatial-domain feature extraction while neglecting
 channel-wise information, leading to incomplete feature representation. To
