@@ -32,10 +32,11 @@ LoLv2-syn, it gains 0.161 dB in PSNR and 0.004 in SSIM. On the unsupervised LIME
         pip install scikit-learn matplotlib thop h5py SimpleITK scikit-image medpy yacs opencv-python tensorboard
 
 #  Training
-    python trian.py
+        python trian.py
 
 #  Testing
-    python test.py -opt tasks/***.yml
-    Example:
-    python test.py -opt Enhancement/LoLv2_real.yml
+        python test.py -opt tasks/***.yml
+        Example Usage: To test on all the degradation types at once, run:
+        python test.py -opt Enhancement/LoLv2_real.yml
+#  Result
     
