@@ -32,11 +32,22 @@ LoLv2-syn, it gains 0.161 dB in PSNR and 0.004 in SSIM. On the unsupervised LIME
         pip install scikit-learn matplotlib thop h5py SimpleITK scikit-image medpy yacs opencv-python tensorboard
 
 #  Training
-        python trian.py
+   After preparing the training data in data/ directory, use
+   
+        python trian.py -opt tasks/train/***.yml
 
+   to start the training of the model, use the opt parameter to select the type of task to train.
+   Example Usage: If we only want to train on LoLv2_real:
+   
+        python trian.py -opt tasks/train/LoLv2_real.yml
+   
 #  Testing
-        python test.py -opt tasks/***.yml
-        Example Usage: To test on all the degradation types at once, run:
-        python test.py -opt Enhancement/LoLv2_real.yml
+   After preparing the test data in data/ directory, use
+   
+        python test.py -opt tasks/test/***.yml
+        
+   Example Usage: To test on all the degradation types at once, run:
+        
+        python test.py -opt tasks/test/LoLv2_real.yml
 #  Result
     
