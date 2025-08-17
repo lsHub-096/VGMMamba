@@ -35,4 +35,7 @@ LoLv2-syn, it gains 0.161 dB in PSNR and 0.004 in SSIM. On the unsupervised LIME
     python trian.py
 
 #  Testing
-    python test.py --mode {n}
+    python test.py -opt tasks/***.yml
+    Example:
+    python test.py -opt Enhancement/LoLv2_real.yml
+    
